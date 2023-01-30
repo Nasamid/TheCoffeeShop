@@ -38,7 +38,7 @@ public class TheCoffeeShop {
     welcomeButton.setFont(new Font("Harlow Solid Italic", Font.PLAIN, 26));
     
     //BG image 1 -- Full opacity
-    ImageIcon bgi = new ImageIcon("C:\\Users\\danil\\OneDrive\\Desktop\\ \\@2nd Year - 1st Sem\\Object-Oriented Programming\\BGs100--lt.png");
+    ImageIcon bgi = new ImageIcon("BGs100--lt.png");
     int height = bgi.getIconHeight();
     int width = bgi.getIconWidth();
     final JLabel bg = new JLabel(bgi);
@@ -46,7 +46,7 @@ public class TheCoffeeShop {
     bg.setVisible(false);
     
     //BG image 2 -- High Transparency
-    ImageIcon bgi2 = new ImageIcon("C:\\Users\\danil\\OneDrive\\Desktop\\ \\@2nd Year - 1st Sem\\Object-Oriented Programming\\BGs100.png");
+    ImageIcon bgi2 = new ImageIcon("BGs100.png");
     int height2 = bgi2.getIconHeight();
     int width2 = bgi2.getIconWidth();
     final JLabel bg2 = new JLabel(bgi2);
@@ -342,7 +342,7 @@ public class TheCoffeeShop {
         });
     
     //Change Frame icon
-    Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\danil\\OneDrive\\Desktop\\ \\@2nd Year - 1st Sem\\Object-Oriented Programming\\Coffee Shop Icon.png");
+    Image icon = Toolkit.getDefaultToolkit().getImage("Coffee Shop Icon.png");
     frame.setIconImage(icon);
     frame.add(bg);
     frame.add(bg2);
